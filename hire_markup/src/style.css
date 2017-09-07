@@ -1,0 +1,111 @@
+
+
+h3, p, a {
+    margin: 0;
+    font-family: arial;
+}
+
+.wrapper {
+    width: 1003px;
+    height: 253px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 18px 18px 18px 23px;
+    box-sizing: border-box;
+}
+.block {
+    display: -webkit-flex; 
+    -webkit-justify-content: flex-start;
+    -webkit-align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    background-color: #ffffff;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px 0 25px 25px;
+}
+.block__info {
+    width: 490px;
+    margin-left: 25px;
+    padding-right: 30px;
+    border-right: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.block__info-title, .block__info-text {
+    margin-top: 10px;
+}
+.block__info-text {
+    line-height: 1.5;
+}
+.block__info h3, .block__info-title span {
+    color: #2a599a;
+}
+.block__info h3 {
+    font-size: 24px;
+}
+.block__info-title {
+    font-size: 13px;
+}
+.block__rating {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+}
+.block__rating-val, .block__rating-title {
+    display: inline-block;
+}
+
+.block__rating-val {
+    font-size: 36px;
+    font-weight: bold;
+    color: #90b866;
+    float: left;
+    margin-right: 20px;
+}
+.block__rating-title p{
+    font-size: 13px;
+    font-weight: bold;    
+    margin-top: 5px;
+}
+.block__rating-img {
+    position: relative;
+    height: 7px;
+    background-color: #cacaca;
+    width: 106px;
+    margin-top: 5px;
+}
+.block__rating-bg {
+    display: block;
+    height: 100%;
+    width: 76%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e7b567;
+}
+.block__rating-circle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(img/circle.png) no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.block__rating-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid #7fb04b;
+    border-radius: 3px;
+    background: linear-gradient(to bottom,#96c664 0%,#7fb04b 100%);
+    margin-top: 60px;
+}
+.block__rating-btn:hover {
+    background: linear-gradient(to bottom,#96c664 0%,#6f9d3d 100%);
+}
+
